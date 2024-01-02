@@ -23,7 +23,7 @@ body {
 .hero{
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background: #eff4fd;
 }
 
@@ -79,6 +79,10 @@ nav ul li a:hover::after {
     color: orange;
 }
 
+.detail-img-2{
+    display: none;
+}
+
 .detel p{
     color: #555;
     line-height: 22px;
@@ -107,7 +111,261 @@ nav ul li a:hover::after {
     width: 80%;
 }
 
+@media only screen and (max-width:1393px) {
+    
+    .detail-img{
+        margin: 4rem 0 0 0;
+    }
 
+    .detel{
+        /* margin-left: 8%;
+        margin-top: 13%; */
+        padding: 4rem 4rem;
+    }
+}
+
+@media only screen and (max-width:1201px) {
+    .detail-img{
+        margin: 4rem 0 0 0;
+    }
+
+    .detel{
+        /* margin-left: 8%;
+        margin-top: 13%; */
+        padding: 4rem 4rem;
+    }
+
+    .imagess{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detel h1{
+        font-size: 3rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+    
+    .span-detel{
+        color: orange;
+    }
+    
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media only screen and (max-width:1046px) {
+    
+    .detail-img{
+        margin: 4rem 0 0 0;
+    }
+
+    .detel{
+        /* margin-left: 8%;
+        margin-top: 13%; */
+        padding: 4rem 2rem;
+    }
+
+    .imagess{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detel h1{
+        font-size: 2.6rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+    
+    .span-detel{
+        color: orange;
+    }
+    
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width:836px) {
+    
+    .detail-img{
+        display: none;
+    }
+
+    .detail-img-2{
+        display: block;
+        margin-top: 3rem;
+    }
+
+    .detel-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .detel{
+        padding: 0 0rem 0 0rem;
+    }
+
+    .man{
+        height: 60%;
+        width: 60%;
+    }
+
+    .imagess{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detel h1{
+        font-size: 4rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+    
+    .span-detel{
+        color: orange;
+    }
+    
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .detel h1{
+        font-size: 2.5rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .detel h1{
+        font-size: 2.2rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: .9rem;
+    }
+
+    .detail-img-2{
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .detel-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .man{
+        height: 85%;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .detel{
+        padding: 0 2rem 0 2rem;
+    }
+
+    .man{
+        height: 90%;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .detel{
+        padding: 0 2rem 0 2rem;
+    }
+
+    .detel h1{
+        font-size: 1.9rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: .8rem;
+    }
+
+    .detel a{
+        background: #212121;
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width:311px) {
+    .detel{
+        padding: 0 2rem 0 2rem;
+    }
+
+    .detel h1{
+        font-size: 1.7rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width:285px) {
+    .detel{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .detel h1{
+        font-size: 1.7rem;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+
+    .detel p{
+        color: #555;
+        line-height: 22px;
+        font-size: .8rem;
+    }
+}
 /* --------------------------------about------------------------------------------ */
 
 .about {
@@ -424,32 +682,12 @@ nav .fa-solid {
 }
 
 /* -----------------------media------------------------ */
-
-@media only screen and (max-width:600px) {
-    .bigphoto {
-        background-image: url(for\ media.png);
-        background-attachment: fixed;
-    }
-
-    .header_text {
-        font-size: 20px;
-        margin-top: 100%;
-        display: none;
-        text-align: right;
-    }
-   
-    .header_text h1 {
-        font-size: 50px;
-        margin-top: 20%;
-    }
-
-    .header_text {
-        display: block;
-    }
+@media only screen and (max-width:837px) {
 
     nav .fa-solid {
         display: block;
         font-size: 25px;
+        color: #262626;
     }
 
     nav ul {
@@ -484,11 +722,16 @@ nav .fa-solid {
 
     .about_col_1 img {
         width: 100%;
+        height: 100%;
     }
 
     .about_photo {
         height: 520px;
         width: 240px;
+    }
+
+    .title_tab{
+        width: 100%;
     }
 
     .about_col_1,
@@ -502,6 +745,7 @@ nav .fa-solid {
 
     .about_col_2{
         font-size: 14px;
+        width: 100%;
     }
 
     .tab_link{
