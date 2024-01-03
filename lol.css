@@ -449,6 +449,11 @@ nav ul li a:hover::after {
     display: block;
 }
 
+@media only screen and (max-width:915px) {
+    .about_col_1 {
+        flex-basis: 45%;
+    }
+}
 /* -------------services----------------- */
 
 #services {
@@ -634,7 +639,7 @@ nav ul li a:hover::after {
 }
 
 .contact_right form {
-    width: 400%;
+    width: 100%;
 }
 
 form input,
@@ -652,7 +657,9 @@ form textarea {
 
 .roww {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 form .btn2 {
@@ -675,6 +682,17 @@ form .btn2 {
     color: #ff004f;
 }
 
+@media only screen and (max-width:2000px) {
+    .cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact_right form {
+        width: 200%;
+    }
+}
+
 /* ------------------for mobile------------------------ */
 
 nav .fa-solid {
@@ -683,15 +701,22 @@ nav .fa-solid {
 
 /* -----------------------media------------------------ */
 @media only screen and (max-width:837px) {
-
+    .cont{
+        display: block;
+        flex-wrap: wrap;
+    }
     nav .fa-solid {
         display: block;
         font-size: 25px;
-        color: #262626;
+        color: black;
+    }
+
+    .fa-xmark{
+        color: white !important;
     }
 
     nav ul {
-        background: #ff004f;
+        background: rgb(45, 45, 45);
         position: fixed;
         top: 0;
         right: -200px;
@@ -705,6 +730,10 @@ nav .fa-solid {
     nav ul li {
         display: block;
         margin: 25px;
+    }
+
+    nav ul li a{
+       color: white;
     }
 
     nav ul .fa-solid {
